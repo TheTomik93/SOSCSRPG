@@ -30,9 +30,7 @@ namespace Engine.Models
         {
             Name = name;
             //ImageName = string.Format("/Engine;component/Images/Monsters/{0}", imageName);
-            ImageName = string.Format("pack://application:,,,/Engine;component/Images/Locations/Home.png", imageName);
-
-
+            ImageName = string.Format("pack://application:,,,/Engine;component/Images/Monsters/{0}", imageName);
 
             MaximumHitPoints = maximumHitPoints;
             HitPoints = hitPoints;
